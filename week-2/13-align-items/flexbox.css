@@ -1,0 +1,29 @@
+.countries {
+  display: flex;
+}
+/* Add your own CSS code below */
+
+.countries--first {
+  align-items: center;
+}
+
+.countries--second {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  justify-content: end;
+}
+
+.countries--third {
+  display: flex;
+  /* justify-content: end; */
+  flex-direction: column;
+  align-items: end;
+}
+
+.countries--fourth {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: end;
+}

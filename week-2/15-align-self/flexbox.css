@@ -1,0 +1,37 @@
+.countries {
+  display: flex;
+}
+
+/* Add your own CSS code below */
+.countries--first .country--ethiopia {
+  align-items: flex-start;
+  align-self: flex-end;
+}
+.countries--second {
+  align-items: center;
+}
+.countries--second.country--ethiopia {
+  align-items: flex-end;
+  align-self: flex-end;
+}
+.countries--third {
+  align-items: flex-end;
+}
+.countries--third .country--brazil {
+  align-self: self-start;
+  align-items: flex-start;
+}
+
+.countries--third .country--uganda {
+  align-self: self-start;
+  align-items: flex-start;
+}
+.countries--fourth .country--uganda {
+  align-self: center;
+  align-items: center;
+}
+.countries--fourth {
+  flex-direction: column;
+  align-self: flex-start;
+  align-items: flex-start;
+}
